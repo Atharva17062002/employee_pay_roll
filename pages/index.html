@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body class="body">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/logo.png" width="200" height="60" alt="" />
+      </a>
+    </nav>
+    <form class="form">
+      <div class="form_heading">
+        <h4>Employee Payroll Form</h4>
+      </div>
+      <div class="form_container">
+        <div class="form_col1">
+          <div class="form_name">
+            <label for="name">Name</label>
+          </div>
+          <div class="form_pimage">
+            <label for="profile-image">Profile Image</label>
+          </div>
+          <div class="form_gender">
+            <label for="gender">Gender</label>
+          </div>
+          <div class="form_department">
+            <label for="department">Department</label>
+          </div>
+          <div class="form_salary">
+            <label for="salary">Salary</label>
+          </div>
+
+          <div class="form_date">
+            <label for="start-date">Start Date</label>
+          </div>
+          <div class="form_note">
+            <label for="notes">Notes</label>
+          </div>
+        </div>
+        <div class="form_col2">
+          <div>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              required
+            />
+            <span class="comment" id="nameComment"></span>
+          </div>
+          <div>
+            <input type="radio" name="profile" id="profile1" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4sKLKw2NRQTZgWlMgy6ZlBrY9TTTr1zMObLZeV73vQ&s"
+              alt="women_img_1"
+              width="40px"
+              style="clip-path: circle()"
+            />
+            <input type="radio" name="profile" id="profile2" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpaVKbSa1QadC1GsXFwQML4kK6JxihiQ4_2n602HKUnQ&s"
+              alt="men_image_1"
+              width="40px"
+              style="clip-path: circle()"
+            />
+            <input type="radio" name="profile" id="profile3" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvJIVAovygeD6z08kn_Rl4fY9vKjJ_Re8ExMeoNZ6yQQ&s"
+              alt="women_img_2"
+              width="40px"
+              style="clip-path: circle()"
+            />
+            <input type="radio" name="profile" id="profile4" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNnKAIHy-tNtoCdJDhEBAlvt5JDSpIkTfZbHKxuT8-6g&s"
+              alt="men_img_2"
+              width="40px"
+              style="clip-path: circle()"
+            />
+          </div>
+          <div class="gender-radio-buttons">
+            <input
+              type="radio"
+              name="gender"
+              id="gender-male"
+              value="male"
+              
+            />
+            <label for="gender-male">Male</label>
+            <input
+              type="radio"
+              name="male"
+              id="gender-female"
+              value="female"
+              
+            />
+            <label for="gender-female">Female</label>
+          </div>
+          <div>
+            
+            
+            <input
+              type="checkbox"
+              name="department"
+              id="hr"
+              value="hr"
+              
+            />
+            <label for="hr">HR</label>
+            
+            <input
+              type="checkbox"
+              name="department"
+              id="sales"
+              value="sales"
+              
+            />
+            <label for="sales">Sales</label>
+            
+            <input
+              type="checkbox"
+              name="department"
+              id="finance"
+              value="finance"
+              
+            />
+            <label for="finance">Finance</label>
+            
+            <input
+              type="checkbox"
+              name="department"
+              id="engineer"
+              value="engineer"
+              
+            />
+            <label for="Engineer">Engineer</label>
+            <input
+              type="checkbox"
+              name="department"
+              id="other"
+              value="other"
+            />
+            <label for="others">Others</label>
+          </div>
+          <div>
+            <select name="salary" id="salary" required>
+              <option value="">Select Salary</option>
+              <option value="salary1">Less than 2 Lakhs</option>
+              <option value="salary2">2 Lakhs - 5 Lakhs</option>
+              <option value="salary3">5 Lakhs - 10 Lakhs</option>
+              <option value="salary3">More than 10 Lakhs</option>
+            </select>
+          </div>
+          <div class="start-date-fields">
+            <select name="start-date-day" id="start-date-day" required>
+              <option value="">Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="start-date-month" id="start-date-month" required>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select name="start-date-year" id="start-date-year" required>
+              <option value="">Year</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+            </select>
+          </div>
+          <div class="notes">
+            <textarea name="notes" id="notes" rows="4"></textarea>
+          </div>
+        </div>
+      </div>
+      <!-- actual form container end -->
+
+      <!-- form btn -->
+      <div class="form_buttons">
+        <button class = "index_button" type="button" id="cancel-button">Cancel</button>
+        <div class="next_buttons">
+          <button class= "index_button" type="submit" id="submit-button">Submit</button>
+          <button class= "index_button" type="reset" id="reset-button">Reset</button>
+        </div>
+      </div>
+    </form>
+    <script src="/scripts/submit.js"></script>
+  </body>
+  <script src="/scripts/comment.js"></script>
+  
+</html>
