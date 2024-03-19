@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "name": "Atharva Udavant",
+      "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4sKLKw2NRQTZgWlMgy6ZlBrY9TTTr1zMObLZeV73vQ&s",
+      "salary": "500000",
+      "department": [
+        "hr",
+        "sales",
+        "finance",
+        "engineer"
+      ],
+      "gender": "male",
+      "day": "2",
+      "month": "June",
+      "year": "2023",
+      "notes": "Hello",
+      "id": "9be7"
+    }
+  ]
+}

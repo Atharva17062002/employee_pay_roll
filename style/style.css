@@ -248,7 +248,15 @@ th{
 .bin_pen{
   display: flex;
   justify-content: space-evenly;
-  margin-left:-40px ;
+  margin-left:-90px ;
+
+
   /* align-items: center; */
   
+}
+.delete-icon{
+  background-color: white;
+}
+.edit-icon{
+  background-color: white;
 }
